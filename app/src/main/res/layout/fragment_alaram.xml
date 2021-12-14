@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical"
+    tools:context=".View.Notificationclick">
+    <TextView
+        android:id="@+id/TIME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:layout_marginTop="80dp"
+        android:text="9:45 PM" />
+    <Button
+        android:id="@+id/buttonSelectAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Select Alarm" />
+    <Button
+        android:id="@+id/buttonSetAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Set Alarm" />
+    <Button
+        android:id="@+id/buttonCancelAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="cancel Alarm" />
+    <Button
+        android:id="@+id/aar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="go.aar" />
+</LinearLayout>

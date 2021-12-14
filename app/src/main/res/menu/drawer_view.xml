@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Alaram"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title="Alaram" />
+        <item
+            android:id="@+id/nav_Storage"
+            android:icon="@drawable/ic_baseline_sd_storage_24"
+            android:title="Storage" />
+        <item
+            android:id="@+id/nav_Service"
+            android:icon="@drawable/ic_baseline_electrical_services_24"
+            android:title="Service" />
+        <item
+            android:id="@+id/nav_Broad"
+            android:icon="@drawable/ic_baseline_security_24"
+            android:title="Broad" />
+        <item
+            android:id="@+id/nav_Cpp"
+            android:icon="@drawable/ic_baseline_security_24"
+            android:title="C++/C" />
+    </group>
+</menu>
