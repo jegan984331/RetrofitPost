@@ -1,9 +1,6 @@
 package com.example.retrofitpost.View.Fragement
 
-import android.app.AlarmManager
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.app.PendingIntent
+import android.app.*
 import android.content.Context
 import android.content.Intent
 import android.os.Build
@@ -67,10 +64,14 @@ class AlaramFragment : Fragment() {
         CanceltBTN.setOnClickListener(View.OnClickListener {
             CancelAlaram()
         })
-        aarBTN.setOnClickListener(View.OnClickListener {
-            val i = Intent(activity, MainModule::class.java)
-            startActivity(i)
-        })
+     aarBTN.setOnClickListener(View.OnClickListener {
+         if (isServiceRunning()) {
+             Toast.makeText(activity, "Running ", Toast.LENGTH_SHORT).show()
+         }
+         else{
+             Toast.makeText(activity, "not running", Toast.LENGTH_SHORT).show()
+         }
+     })
 
     }
 
